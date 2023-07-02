@@ -35,3 +35,30 @@ console.log(
 }
 ); // ************************* this is not an expression
 
+// React code
+// <App>
+//    <Data /> component
+//    <ListOfItems /> component
+// </App>
+
+//component tree is App on top and arrows pointing to data box and
+// list of items box.
+
+// the UI to build which has an overall app box. First is app box
+// then data box inside filled with object of keys, lastItem: item3
+// and itemCount: 3. Then the list of items box filled with an
+// array of item 1, item 2, item 3.
+
+// 1. start with array of items and in data box you want to get values
+//    a. lastItem: item3
+//    b. itemCount: 3
+// 2. Get the data by passing items into the component refer to above React code
+// 3. the list of items needs an array of items. Data is also need array of items.
+// 4. The items array lives in a constraint, "one way data binding" is where the constraint lives.
+// 5. One way data binding says that if we have some data that lives on app.
+// 6. The only way to get the react data to list of items is by
+// passing it from parent to list of items or (child).
+// 7. cannot not take data from list of items (child) and pass it up to parent (app).
+// 8. The only place the array of items can live is on the App Box portion.
+// 9. Data must be on the parent.
+// 10.
